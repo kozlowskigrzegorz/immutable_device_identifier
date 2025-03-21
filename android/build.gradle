@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = "studio.creche.immutable_device_identifier"
+    
     compileSdkVersion 31
 
     compileOptions {
